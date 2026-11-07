@@ -1,0 +1,14 @@
+baseURL = "https://dersavage.github.io/fiction/"
+languageCode = "en-us"
+title = "Fiction Reviews"
+theme = "emacs"
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark.renderer]
+  # the review bodies are hand-written HTML, so let Hugo pass it through
+  unsafe = true
+
+[params]
+  description = "Fiction reviews by Jan M. Savage"
